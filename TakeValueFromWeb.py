@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 from requests.models import Response
 
 ####Request####
-Take_html=requests.get(f'https://www.openstreetmap.org/api/0.6/changeset/{95969191}/download')
+Take_html=requests.get('https://www.openstreetmap.org/api/0.6/changeset/95969191/download')
 # print(Take_html.headers['Content-Type'])# to know xml or json
 '''
 ***** Take value you wanted base on requests *xml from web***
